@@ -4,15 +4,17 @@ from sensor_msgs.msg import Image
 import cv2
 from cv_bridge import CvBridge
 
-# Run the shape detection node and video streamer node
-#pixi run python3 scripts/shape_detection_node.py scripts/video_streamer_node.py
+# Run the shape detection node and video streamer node (separate terminals)
+#pixi shell -e humble
+#pixi run python3 scripts/shape_detection_node.py 
+#pixi run python3 scripts/video_streamer_node.py
 
 class VideoStreamer(Node):
     def __init__(self):
         super().__init__('video_streamer')
         self.publisher_ = self.create_publisher(Image, 'camera/image_raw', 10)
         self.timer = self.create_timer(0.033, self.timer_callback)  # ~30fps
-        self.cap = cv2.VideoCapture('resources/PennAir 2024 App Dynamic.mp4')
+        self.cap = cv2.VideoCapture('resources/PennAir 2024 App Dynamic Hard.mp4')
         self.bridge = CvBridge()
         self.get_logger().info('VideoStreamer node started. Streaming video...')
 
