@@ -1,0 +1,3 @@
+[console_scripts]
+shape_detection_node = robostack.shape_detection_node:main
+video_streamer_node = robostack.video_streamer_node:main

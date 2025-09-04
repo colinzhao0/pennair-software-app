@@ -1,0 +1,31 @@
+running egg_info
+creating build/robostack/robostack.egg-info
+writing build/robostack/robostack.egg-info/PKG-INFO
+writing dependency_links to build/robostack/robostack.egg-info/dependency_links.txt
+writing entry points to build/robostack/robostack.egg-info/entry_points.txt
+writing requirements to build/robostack/robostack.egg-info/requires.txt
+writing top-level names to build/robostack/robostack.egg-info/top_level.txt
+writing manifest file 'build/robostack/robostack.egg-info/SOURCES.txt'
+reading manifest file 'build/robostack/robostack.egg-info/SOURCES.txt'
+writing manifest file 'build/robostack/robostack.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /Users/czh/Documents/coding/penn/pennair/software team app/ros2_ws/robostack/build/robostack/build/lib/robostack
+copying robostack/shape_detection_node.py -> /Users/czh/Documents/coding/penn/pennair/software team app/ros2_ws/robostack/build/robostack/build/lib/robostack
+copying robostack/__init__.py -> /Users/czh/Documents/coding/penn/pennair/software team app/ros2_ws/robostack/build/robostack/build/lib/robostack
+copying robostack/video_streamer_node.py -> /Users/czh/Documents/coding/penn/pennair/software team app/ros2_ws/robostack/build/robostack/build/lib/robostack
+running install
+running install_lib
+creating /Users/czh/Documents/coding/penn/pennair/software team app/ros2_ws/robostack/install/robostack/lib/python3.11/site-packages/robostack
+copying /Users/czh/Documents/coding/penn/pennair/software team app/ros2_ws/robostack/build/robostack/build/lib/robostack/shape_detection_node.py -> /Users/czh/Documents/coding/penn/pennair/software team app/ros2_ws/robostack/install/robostack/lib/python3.11/site-packages/robostack
+copying /Users/czh/Documents/coding/penn/pennair/software team app/ros2_ws/robostack/build/robostack/build/lib/robostack/__init__.py -> /Users/czh/Documents/coding/penn/pennair/software team app/ros2_ws/robostack/install/robostack/lib/python3.11/site-packages/robostack
+copying /Users/czh/Documents/coding/penn/pennair/software team app/ros2_ws/robostack/build/robostack/build/lib/robostack/video_streamer_node.py -> /Users/czh/Documents/coding/penn/pennair/software team app/ros2_ws/robostack/install/robostack/lib/python3.11/site-packages/robostack
+byte-compiling /Users/czh/Documents/coding/penn/pennair/software team app/ros2_ws/robostack/install/robostack/lib/python3.11/site-packages/robostack/shape_detection_node.py to shape_detection_node.cpython-311.pyc
+byte-compiling /Users/czh/Documents/coding/penn/pennair/software team app/ros2_ws/robostack/install/robostack/lib/python3.11/site-packages/robostack/__init__.py to __init__.cpython-311.pyc
+byte-compiling /Users/czh/Documents/coding/penn/pennair/software team app/ros2_ws/robostack/install/robostack/lib/python3.11/site-packages/robostack/video_streamer_node.py to video_streamer_node.cpython-311.pyc
+running install_egg_info
+Copying build/robostack/robostack.egg-info to /Users/czh/Documents/coding/penn/pennair/software team app/ros2_ws/robostack/install/robostack/lib/python3.11/site-packages/robostack-0.0.1-py3.11.egg-info
+running install_scripts
+Installing shape_detection_node script to /Users/czh/Documents/coding/penn/pennair/software team app/ros2_ws/robostack/install/robostack/bin
+Installing video_streamer_node script to /Users/czh/Documents/coding/penn/pennair/software team app/ros2_ws/robostack/install/robostack/bin
+writing list of installed files to '/Users/czh/Documents/coding/penn/pennair/software team app/ros2_ws/robostack/build/robostack/install.log'

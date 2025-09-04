@@ -1,0 +1,9 @@
+source;share/robostack/hook/path.ps1
+source;share/robostack/hook/path.dsv
+source;share/robostack/hook/path.sh
+source;share/robostack/hook/pythonpath.ps1
+source;share/robostack/hook/pythonpath.dsv
+source;share/robostack/hook/pythonpath.sh
+source;share/robostack/hook/pythonscriptspath.ps1
+source;share/robostack/hook/pythonscriptspath.dsv
+source;share/robostack/hook/pythonscriptspath.sh
